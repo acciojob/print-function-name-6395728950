@@ -1,6 +1,4 @@
-//your JS code here. If required.
-function solve(){
-	const val = arguments.callee.name;
-	 alert(`${val}`);
+function functionName() {
+  alert(functionName.name);
 }
-solve();
+functionName();
